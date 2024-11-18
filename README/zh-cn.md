@@ -6,7 +6,7 @@
     <img src="http://img.shields.io/badge/License-MIT-1e90ff?style=for-the-badge"/>
   </a>
   <a href="https://dotnet.microsoft.com">
-    <img src="http://img.shields.io/badge/.Net-9.0-1e90ff?style=for-the-badge"/>
+    <img src="http://img.shields.io/badge/.NET-9.0-1e90ff?style=for-the-badge"/>
   </a>
 </p>
 
@@ -16,12 +16,6 @@
 
 打开 RemoveOldJetBrainsIDE，就会自动删除旧版本的 JetBrains IDE。
 
-## ✨ 特点
-
-- 自动化
-- 轻量级软件
-- 释放硬盘空间
-
-## 🌟 安装
+## ✨ 安装
 
 - [下载 RemoveOldJetBrainsIDE](https://github.com/suoyukii/RemoveOldJetBrainsIDE/releases)

@@ -6,7 +6,7 @@
     <img src="http://img.shields.io/badge/License-MIT-1e90ff?style=for-the-badge"/>
   </a>
   <a href="https://dotnet.microsoft.com">
-    <img src="http://img.shields.io/badge/.Net-9.0-1e90ff?style=for-the-badge"/>
+    <img src="http://img.shields.io/badge/.NET-9.0-1e90ff?style=for-the-badge"/>
   </a>
 </p>
 
@@ -21,12 +21,6 @@
 
 Open RemoveOldJetBrainsIDE to automatically removes the old version of JetBrains IDE.
 
-## ✨ Features
-
-- Automatization
-- Lightweight software
-- Free up hard disk space
-
-## 🌟 Install
+## ✨ Install
 
 - [Download RemoveOldJetBrainsIDE](https://github.com/suoyukii/RemoveOldJetBrainsIDE/releases)
