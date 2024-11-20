@@ -1,42 +1,25 @@
-﻿using System.Diagnostics;
+﻿using System.Globalization;
 
 namespace RemoveOldJetBrainsIDE;
 
 public static class Language
 {
-    // public static string[] Get() => CultureInfo.CurrentUICulture.Name switch
-    public static string[] Get() => FixGetCultureName() switch
+    public static string[] Get()
     {
-        "zh-cn" =>
-        [
-            "清除旧版本的 JetBrains IDE",
-            "清除中...",
-            "清除结束，这个窗口可以关闭了"
-        ],
-        _ =>
-        [
-            "Remove Old JetBrains IDE",
-            "Removing...",
-            "Remove is complete, the window can be closed."
-        ],
-    };
-
-    private static string FixGetCultureName()
-    {
-        var p = new Process
+        return CultureInfo.CurrentUICulture.Name switch
         {
-            StartInfo = new ProcessStartInfo
-            {
-                FileName = "powershell",
-                Arguments = "(Get-UICulture).Name",
-                RedirectStandardOutput = true,
-                UseShellExecute = false,
-                CreateNoWindow = true
-            }
+            "zh-CN" =>
+            [
+                "清除旧版本的 JetBrains IDE",
+                "清除中...",
+                "清除结束，这个窗口可以关闭了"
+            ],
+            _ =>
+            [
+                "Remove Old JetBrains IDE",
+                "Removing...",
+                "Remove is complete, the window can be closed."
+            ]
         };
-        p.Start();
-        var lang = p.StandardOutput.ReadLine().ToLower();
-        p.WaitForExit();
-        return lang;
     }
 }

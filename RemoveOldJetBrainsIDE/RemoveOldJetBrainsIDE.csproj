@@ -6,7 +6,6 @@
         <LangVersion>latestmajor</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <PublishAot>true</PublishAot>
-        <InvariantGlobalization>true</InvariantGlobalization>
         <Authors>suoyukii</Authors>
         <Copyright>Copyright © 2024 suoyukii</Copyright>
         <PackageProjectUrl>https://github.com/suoyukii/RemoveOldJetBrainsIDE</PackageProjectUrl>
