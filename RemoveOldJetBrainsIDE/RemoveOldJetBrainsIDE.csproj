@@ -5,6 +5,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <LangVersion>latestmajor</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
         <PublishAot>true</PublishAot>
         <Authors>suoyukii</Authors>
         <Copyright>Copyright © 2024 suoyukii</Copyright>
